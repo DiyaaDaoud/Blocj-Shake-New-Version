@@ -1,10 +1,6 @@
-import {
-  useAuthenticateMutation,
-  useDefaultProfileQuery,
-} from "@/src/graphql/generated";
+import { useAuthenticateMutation } from "@/src/graphql/generated";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useAddress, useSDK } from "@thirdweb-dev/react";
-import useGetNotifications from "../useGetNotifications";
 import generateChallenge from "./generateChallenge";
 import { setAccessToken } from "./helpers";
 
