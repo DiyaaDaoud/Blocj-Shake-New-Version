@@ -144,6 +144,7 @@ const ProfileMetadata = () => {
               size="xs"
               hidden={coverChanged}
             >
+              {/* @ts-ignore */}
               <label for="files">Set Cover pic</label>
             </Button>
           </Flex>

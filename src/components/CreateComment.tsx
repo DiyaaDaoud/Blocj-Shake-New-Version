@@ -148,6 +148,7 @@ export default function CreateComment({ publicationId }: Args) {
             <Select
               maxW="40%"
               placeholder="Select collect module"
+              // @ts-ignore
               onChange={(e) => setCollectModule(e.target.value)}
               size="sm"
             >

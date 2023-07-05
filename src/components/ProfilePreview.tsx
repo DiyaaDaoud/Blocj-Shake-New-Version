@@ -74,16 +74,6 @@ const ProfilePreview = ({ profile }: Props) => {
         <Heading size="xs">{userName}</Heading>
       </Box>
     </Flex>
-    // <Flex spacing="8">
-    //     <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
-    //       <Skeleton isLoaded={pic !== undefined}>
-    //         <Avatar
-    //           name={publication.profile.name || publication.profile.handle}
-    //           src={pic}
-    //         />
-    //       </Skeleton>
-    //       <Flex/>
-    //       <Flex/>
   );
 };
 
