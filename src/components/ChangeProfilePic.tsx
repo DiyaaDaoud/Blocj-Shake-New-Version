@@ -13,6 +13,7 @@ const ChangeProfilePic = () => {
     // @ts-ignore
     <Flex flexDirection="column" width="100%" alignItems="center" gap="10px">
       <Button bgColor="#501030" variant="solid" color="white" size="xs">
+        {/** @ts-ignore */}
         <label for="files">Select New Profile Pic</label>
       </Button>
       {imagePath != "" && (
